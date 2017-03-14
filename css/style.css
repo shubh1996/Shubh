@@ -1,1 +1,51 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+html{
+	background-color: #000;
+}
+.headin{
+	color:white;
+	text-align: center;
+}
+html{
+	height:100vh;
+}
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+.nav-bar-background{
+	padding-top: 8px;
+    background:#111 ;
+    opacity: 0.9;
+}
+
+.nav-bar-edit
+{
+    color: #fff !important;
+}
+.nav-bar-edit:hover{
+    opacity: 1;
+
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #fff !important;
+}
+.navbar-inverse .navbar-brand {
+    color:#fff !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+   background-color: #fff;
+}

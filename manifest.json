@@ -1,0 +1,16 @@
+{
+  "name": "Babblejoy",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": 0.9
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#3366cc",
+  "Theme_color": "#3366cc",
+  "display": "standalone",
+  "orientation": "portrait"
+}

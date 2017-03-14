@@ -27,6 +27,7 @@ html{
 }
 .nav-bar-background{
 	padding-top: 5px;
+	padding-bottom: 5px;
     background:#111 ;
     opacity: 0.9;
 }

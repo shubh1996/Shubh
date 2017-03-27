@@ -81,8 +81,32 @@ i{
 .phone-div{
     display: none;
 }
+.ul{
+    padding:20px;
+    padding-bottom: 0;
+    background-color:#000; 
+    color:#fff;
+    font-size: 20px;
+    margin:0;
+}
+.li{
+    padding:20px;
+}
+.lastli{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 100px;
+}
+ 
+.skicon{
+    float: right;
+    padding-right: 40px;
 
-
+}
+.fcol{
+    padding:20px;
+}
+ 
 
 
 

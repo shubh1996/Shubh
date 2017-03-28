@@ -111,7 +111,14 @@ i{
 .h11{
     text-align: center;
 } 
-
+.not{
+    text-align: center;
+    padding:20px;
+    background-color: #000; 
+}
+.pwa{
+    background-color: #fff;
+}
 
 
 

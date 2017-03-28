@@ -16,7 +16,7 @@ if (Notification.permission == 'granted') {
 
     // TODO 2.4 - Add 'options' object to configure the notification
     var options = {
-  body: 'Notifications!!! Cool no??',
+  body: 'Notifications!!! Cool noe??',
   icon: 'images/favicon.png',
   vibrate: [100, 50, 100],
   data: {

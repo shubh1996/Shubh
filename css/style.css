@@ -91,6 +91,8 @@ i{
 }
 .li{
     padding:20px;
+    font-size: 20px;
+    font-weight: 100;
 }
 .lastli{
     margin-bottom: 0;
@@ -104,7 +106,7 @@ i{
 
 }
 .fcol{
-    padding:10px;
+    padding:15px;
 }
 .h11{
     text-align: center;

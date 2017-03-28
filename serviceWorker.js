@@ -1,7 +1,7 @@
 (function(){
 
 var CURRENT_CACHE = "bj";
-var initial_cache =['.','index.html','css/style.css','js/index.js'];
+var initial_cache =['.','index.html','css/style.css','js/index.js','css/bootstrap.css'];
 	self.addEventListener('install',event=>{
 		console.log('Installed service worker');
 		skipWaiting();
@@ -17,4 +17,15 @@ var initial_cache =['.','index.html','css/style.css','js/index.js'];
 		})
 		console.log('Done caching');
 	});
+	self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    fetch(event.request).catch(function() {
+      return caches.match(event.request);
+    })
+  );
+});
+	self.addEventListener('notificationclick', function(e) {
+  // TODO 2.8 - change the code to open a custom page
+  // clients.openWindow('index.html');
+});
 })();

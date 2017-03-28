@@ -3,6 +3,9 @@
 html{
 	background-color: #000;
 }
+body{
+    font-family: 'bree serif',serif;    
+}
 .headin{
 	color:#fff;
     background-color: black;

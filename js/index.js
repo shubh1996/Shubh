@@ -1,4 +1,9 @@
 
+funcc = function(x){
+  
+
+}
+
 $(document).ready(function(){
 
 if (!('Notification' in window)) {

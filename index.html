@@ -52,18 +52,20 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" onclick="funcc(200);">About</a>
                     </li>
                     <li>
-                        <a href="#">Skills</a>
+                        <a href="#" onclick="funcc(400);">Skills and Strength</a>
                     </li>
                     <li>
-                        <a href="#">Experiences</a>
+                        <a href="#" onclick="funcc(600);">Experiences and Projects</a>
                     </li>
                                     
                     <li >
-                        <a href="#">Others</a>
-                        
+                        <a href="#" onclick="funcc(800);">About the PWA</a>
+                    </li>
+                     <li>
+                        <a href="#" onclick="funcc(1000);">Social Links</a>
                     </li>
                 </ul>
             </div>
@@ -101,10 +103,10 @@
 <div class="fcol skills col-md-6 col-sm-12 col-xs-12">
 <h1 class="h11">My skills</h1>
     <ul class="ul">
-        <li class="li skill">Fullstack Web Dev<i class="skicon fa fa-battery-3 fa-3x"></i></li>
+        <li class="li skill">Web Developer<i class="skicon fa fa-battery-3 fa-3x"></i></li>
         <li class="li skill">C/C++ <i class="skicon fa fa-battery-2 fa-3x"></i></li>
         <li class="li skill">Java <i class="skicon fa fa-battery-1 fa-3x"></i></li>
-        <li class="li skill">Event Management <i class="skicon fa fa-battery-4 fa-3x"></i></li>
+        <li class="li skill">Event Management<i class="skicon fa fa-battery-4 fa-3x"></i></li>
         <li class="li skill">Marketting<i class="skicon fa fa-battery-4 fa-3x"></i></li>
         <li class="li skill lastli">Dance<i class="skicon fa fa-battery-3 fa-3x"></i></li>
     </ul>
@@ -149,7 +151,7 @@
 
 <div class="not col-md-12 col-sm-12 col-xs-12">
 <div class="pwa col-md-4 col-sm-12 col-xs-12">This is a <strong>Progressive Web App</strong></div>
- <a href="index.html" onclick="noti();" class="col-md-4 col-sm-12 col-xs-12"><div class="btn btn-default">Do you want to see notifications??</div></a>
+ <a href="index.html" onclick="noti();" class="col-md-4 col-sm-12 col-xs-12"><div class="btn btn-default">Click here to see notifications??</div></a>
 <div class="pwa col-md-4 col-sm-12 col-xs-12">And it can run <strong>Offline</strong> too</div>
 </div>
 
@@ -170,6 +172,12 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script><script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">
+      funcc = function(x){ 
+    console.log(x);
+    window.scroll(0,x);
+}
+  </script>
 </body>
 
 </html>

@@ -11,7 +11,7 @@ body{
     background-color: black;
 	text-align: center;
     position: absolute;
-    top: 80px;
+    top: 0px;
     left: 10%;
     background: transparent;
     font-family: 'bree serif',serif;
@@ -20,7 +20,7 @@ body{
 .h2{
     padding-left: 20px;
     position: absolute;
-    top:150px;
+    top:50px;
     font-weight: 700;
     color:#6d0000;
 }
@@ -42,7 +42,7 @@ img{
 }
 
 .headimg{
-    margin-top:70px;
+    margin-top:0px;
     height:100vh;
     background-image: url('../images/home1.jpg');
     background-size: cover; 
@@ -133,7 +133,7 @@ i{
     }
 
     .headimg{
-    margin-top:70px;
+    margin-top:0px;
     height:50vh;
     background-image: url('../images/home2.jpg');
     background-size: cover; 
@@ -150,12 +150,12 @@ i{
 
 
 .headin{
-    top: 64vh;
+    top: 54vh;
     background: #000;
     }
 .h2{
     position: absolute;
-    top:78vh;
+    top:68vh;
 }
 .desk-div{
     display:none;
@@ -180,47 +180,4 @@ i{
 }
 
 
-}
-
-
-
-
-
-@media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
-
-    header.carousel .carousel {
-        height: 70%;
-    }
-}
-
-
-
-
-
-.nav-bar-background{
-	padding-top: 8px;
-	background:#222 ;
-    opacity: 1;
-}
-
-.nav-bar-edit
-{
-    color: #fff !important;
-}
-.nav-bar-edit:hover{
-    opacity: 1;
-
-}
-.navbar-inverse .navbar-nav>li>a{
-    color: #fff !important;
-}
-.navbar-inverse .navbar-brand {
-    color:#fff !important;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-   background-color: #fff;
 }

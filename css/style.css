@@ -63,17 +63,15 @@ img{
 }
 .headimg-cont{
     text-align: center;
-    padding-top: 150px;
+    padding-top: 80px;
     font-size: 25px;
     font-weight: 700;
-    height:70vh;
+    height:50vh;
     padding-left: 20px;
     animation-name: example;
     animation-duration: 4s; 
     animation-iteration-count: infinite;
     text-shadow:  2px 2px #000;
-    
-
 }
 .headin{
     text-align: center;
@@ -84,7 +82,7 @@ img{
     animation-name: example;
     animation-duration: 4s; 
     animation-iteration-count: infinite;
-    text-shadow:  0px 1px #fff;
+    text-shadow:  1px 1px #fff;
 
 }
 .icons{
@@ -174,7 +172,7 @@ i{
 }
 
 .headimg-cont{
-    padding-top:30vh;
+    padding-top:20vh;
     font-size: 20px;
     color: white;
     font-weight: 400;

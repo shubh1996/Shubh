@@ -1,8 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 @keyframes example {
-    from {background-color: #555;}
-    to {background-color: #aaa;}
+   0%   {background-color: #444;}
+    25%  {background-color: #aaa;}
+    50%  {background-color: #ddd;}
+    75%  {background-color: #aaa;}        
+    100% {background-color: #444;}
+    
 }
 
 html{
@@ -13,15 +17,13 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 .fcol{   
-    /* width: 100px;
-    height: 100px; */
     animation-name: example;
     animation-duration: 4s; 
     animation-iteration-count: infinite;
 }
 .headin{
-	color:#fff;
-    background-color: black;
+    color:#fff;
+    background-color: transparent;
 	text-align: center;
     position: absolute;
     top: 0px;
@@ -184,7 +186,7 @@ i{
 
 .headin{
     top: 54vh;
-    background: #000;
+    text-align: center;
     }
 .h2{
     position: absolute;
